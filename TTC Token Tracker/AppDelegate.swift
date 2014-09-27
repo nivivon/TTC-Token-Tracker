@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func setAppropriateRootVC() {
         let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
         var initViewController: UIViewController
-        if (!hasSetup()) {
+        if (hasSetup()) {
             initViewController = storyboard.instantiateViewControllerWithIdentifier("PortalViewController") as UIViewController
         }
         else {
