@@ -12,10 +12,32 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
                             
     var window: UIWindow?
-
-
+    
+    func hasSetup() -> Bool {
+        var hasSetup: Bool = false
+        let userDefaults: NSUserDefaults = NSUserDefaults.standardUserDefaults()
+        if let setupValue: AnyObject = (userDefaults.objectForKey("setup")) {
+            if (setupValue as Bool == true) {
+                hasSetup = true
+            }
+        }
+        return hasSetup
+    }
+    
+    func setAppropriateRootVC() {
+        let storyboard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        var initViewController: UIViewController
+        if (!hasSetup()) {
+            initViewController = storyboard.instantiateViewControllerWithIdentifier("PortalViewController") as UIViewController
+        }
+        else {
+            initViewController = storyboard.instantiateViewControllerWithIdentifier("SetupViewController") as UIViewController
+        }
+        window!.rootViewController = initViewController
+    }
+    
     func application(application: UIApplication!, didFinishLaunchingWithOptions launchOptions: NSDictionary!) -> Bool {
-        // Override point for customization after application launch.
+        setAppropriateRootVC()
         return true
     }
 

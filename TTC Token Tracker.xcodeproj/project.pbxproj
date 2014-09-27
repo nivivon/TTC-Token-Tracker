@@ -7,11 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		52068EB419D3BF9C006BCB77 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52068EB319D3BF9C006BCB77 /* MapKit.framework */; };
+		523EE9CE19D4F522004DFD99 /* LocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523EE9CD19D4F522004DFD99 /* LocationViewController.swift */; };
 		5249814619D3166C0011AF22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249814519D3166C0011AF22 /* AppDelegate.swift */; };
-		5249814819D3166C0011AF22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249814719D3166C0011AF22 /* ViewController.swift */; };
 		5249814B19D3166C0011AF22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5249814919D3166C0011AF22 /* Main.storyboard */; };
 		5249814D19D3166C0011AF22 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5249814C19D3166C0011AF22 /* Images.xcassets */; };
 		5249815919D3166C0011AF22 /* TTC_Token_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5249815819D3166C0011AF22 /* TTC_Token_TrackerTests.swift */; };
+		5253C54319D4B21600B5E18E /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5253C54219D4B21600B5E18E /* SetupViewController.swift */; };
+		52A070BC19D4AB7700400C5A /* PortalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A070BB19D4AB7700400C5A /* PortalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,15 +28,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		52068EB319D3BF9C006BCB77 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		523EE9CD19D4F522004DFD99 /* LocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewController.swift; sourceTree = "<group>"; };
 		5249814019D3166C0011AF22 /* TTC Token Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TTC Token Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5249814419D3166C0011AF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5249814519D3166C0011AF22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5249814719D3166C0011AF22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5249814A19D3166C0011AF22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5249814C19D3166C0011AF22 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		5249815219D3166C0011AF22 /* TTC Token TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TTC Token TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5249815719D3166C0011AF22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5249815819D3166C0011AF22 /* TTC_Token_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTC_Token_TrackerTests.swift; sourceTree = "<group>"; };
+		5253C54219D4B21600B5E18E /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		52A070BB19D4AB7700400C5A /* PortalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PortalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52068EB419D3BF9C006BCB77 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -57,6 +64,7 @@
 		5249813719D3166C0011AF22 = {
 			isa = PBXGroup;
 			children = (
+				52068EB319D3BF9C006BCB77 /* MapKit.framework */,
 				5249814219D3166C0011AF22 /* TTC Token Tracker */,
 				5249815519D3166C0011AF22 /* TTC Token TrackerTests */,
 				5249814119D3166C0011AF22 /* Products */,
@@ -75,11 +83,13 @@
 		5249814219D3166C0011AF22 /* TTC Token Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				5253C54219D4B21600B5E18E /* SetupViewController.swift */,
 				5249814519D3166C0011AF22 /* AppDelegate.swift */,
-				5249814719D3166C0011AF22 /* ViewController.swift */,
 				5249814919D3166C0011AF22 /* Main.storyboard */,
 				5249814C19D3166C0011AF22 /* Images.xcassets */,
 				5249814319D3166C0011AF22 /* Supporting Files */,
+				52A070BB19D4AB7700400C5A /* PortalViewController.swift */,
+				523EE9CD19D4F522004DFD99 /* LocationViewController.swift */,
 			);
 			path = "TTC Token Tracker";
 			sourceTree = "<group>";
@@ -158,6 +168,12 @@
 				TargetAttributes = {
 					5249813F19D3166C0011AF22 = {
 						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = STM9TH8M25;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					5249815119D3166C0011AF22 = {
 						CreatedOnToolsVersion = 6.0;
@@ -208,8 +224,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5249814819D3166C0011AF22 /* ViewController.swift in Sources */,
+				52A070BC19D4AB7700400C5A /* PortalViewController.swift in Sources */,
+				5253C54319D4B21600B5E18E /* SetupViewController.swift in Sources */,
 				5249814619D3166C0011AF22 /* AppDelegate.swift in Sources */,
+				523EE9CE19D4F522004DFD99 /* LocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,7 +343,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "TTC Token Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -336,7 +356,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "TTC Token Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -395,6 +417,7 @@
 				5249815E19D3166C0011AF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5249815F19D3166C0011AF22 /* Build configuration list for PBXNativeTarget "TTC Token TrackerTests" */ = {
 			isa = XCConfigurationList;
@@ -403,6 +426,7 @@
 				5249816119D3166C0011AF22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
