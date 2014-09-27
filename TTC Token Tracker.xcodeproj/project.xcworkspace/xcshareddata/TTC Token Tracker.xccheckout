@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7700504B-4A42-43B2-AC81-DF64E0C7B913</string>
+	<key>IDESourceControlProjectName</key>
+	<string>TTC Token Tracker</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D2A2D0C37425586F1D90E6B1E48FDA29397EA761</key>
+		<string>https://github.com/nivivon/TTC-Token-Tracker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>TTC Token Tracker.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D2A2D0C37425586F1D90E6B1E48FDA29397EA761</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nivivon/TTC-Token-Tracker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D2A2D0C37425586F1D90E6B1E48FDA29397EA761</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D2A2D0C37425586F1D90E6B1E48FDA29397EA761</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TTC%20Token%20Tracker</string>
+		</dict>
+	</array>
+</dict>
+</plist>
